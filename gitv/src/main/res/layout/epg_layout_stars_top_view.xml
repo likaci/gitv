@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/home_topbar_bg" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="@dimen/dimen_30dp" android:textColor="@color/action_bar_text_normal" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_stars_top_title_text" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f080722" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_30dp" android:singleLine="true" />
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/epg_tab_bar_decorated_line" android:focusable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/epg_action_bar_icon_name" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/epg_item_icon" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f08061f" android:layout_marginRight="@dimen/dimen_8dp" android:scaleType="centerInside" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/epg_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dimen_10dp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_item_message" android:background="@drawable/epg_action_bar_item_message" android:focusable="false" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f080605" android:layout_height="UNKNOWN_DATA_0x7f080605" android:layout_marginTop="@dimen/dimen_03dp" android:layout_marginRight="@dimen/dimen_9dp" />
+</merge>

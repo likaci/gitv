@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080738">
+    <ImageView android:id="@id/epg_home_tab_setting_name" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x7f080708" android:layout_height="UNKNOWN_DATA_0x7f080708" android:layout_marginLeft="@dimen/dimen_25dp" android:scaleType="fitXY" android:layout_centerInParent="true" />
+</RelativeLayout>

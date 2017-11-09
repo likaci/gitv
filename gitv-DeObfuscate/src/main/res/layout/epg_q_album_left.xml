@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/left_panel_fragment" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@color/album_left_background" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f08061d" android:layout_height="match_parent" />
+    <com.gala.video.app.epg.ui.albumlist.widget.SelectView android:id="@id/epg_search_select_view" android:paddingTop="@dimen/dimen_8dp" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.gala.video.albumlist4.widget.ListView android:id="@id/epg_left_scrollview" android:paddingTop="@dimen/dimen_2dp" android:paddingBottom="@dimen/dimen_5dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="UNKNOWN_DATA_0x7f08061d" android:layout_height="match_parent" android:layout_below="@id/epg_search_select_view" />
+</RelativeLayout>

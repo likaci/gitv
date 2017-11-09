@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/epg_player_setting_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/epg_setting_tag" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f080783" android:layout_height="UNKNOWN_DATA_0x7f080783" android:layout_marginLeft="@dimen/dimen_50dp" android:layout_marginTop="@dimen/dimen_40dp" android:src="@drawable/epg_title_button" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/dimen_40dp" android:textColor="@color/subject_default_text_color" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/epg_setting_title" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10dp" android:text="@string/player_setting" android:layout_toRightOf="@id/epg_setting_tag" android:layout_alignTop="@id/epg_setting_tag" android:layout_alignBottom="@id/epg_setting_tag" />
+    <LinearLayout android:orientation="vertical" android:id="@id/epg_setting_content" android:background="@drawable/epg_setting_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dimen_55dp" android:layout_marginTop="@dimen/dimen_120dp" android:layout_marginRight="@dimen/dimen_55dp" android:layout_marginBottom="@dimen/dimen_65dp"
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_150dp" android:layout_marginRight="@dimen/dimen_130dp">
+            <TextView android:textSize="@dimen/dimen_24dp" android:textColor="@color/subject_select_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_26dp" android:text="@string/jump_video_hive" />
+            <RadioButton android:id="@id/epg_setting_jump" android:includeFontPadding="false" style="@style/PlaySettingRadio" />
+            <RadioButton android:id="@id/epg_setting_no_jump" android:layout_marginBottom="@dimen/dimen_10dp" android:includeFontPadding="false" style="@style/PlaySettingRadio" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_150dp" android:layout_marginRight="@dimen/dimen_130dp">
+            <TextView android:textSize="@dimen/dimen_24dp" android:textColor="@color/subject_select_text_color" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10dp" android:text="@string/default_code_stream" />
+            <RadioButton android:id="@id/epg_stream_1080p" android:includeFontPadding="false" style="@style/PlaySettingRadio" />
+            <RadioButton android:id="@id/epg_stream_720p" android:includeFontPadding="false" style="@style/PlaySettingRadio" />
+            <RadioButton android:id="@id/epg_stream_high" android:layout_marginBottom="@dimen/dimen_10dp" android:includeFontPadding="false" style="@style/PlaySettingRadio" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_150dp" android:layout_marginRight="@dimen/dimen_130dp">
+            <TextView android:textSize="@dimen/dimen_24dp" android:textColor="@color/subject_select_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10dp" android:text="@string/screen_scale" />
+            <RadioButton android:id="@id/epg_default_scale" android:includeFontPadding="false" style="@style/PlaySettingRadio" />
+            <RadioButton android:id="@id/epg_full_screen" android:layout_marginBottom="@dimen/dimen_20dp" android:includeFontPadding="false" style="@style/PlaySettingRadio" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

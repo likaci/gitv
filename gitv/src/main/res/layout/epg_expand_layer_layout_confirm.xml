@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/keyitem_confirm_layout" android:background="@drawable/epg_expand_layer_bg_normal" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x7f0806d6" android:layout_height="UNKNOWN_DATA_0x7f0806d6">
+    <ImageView android:id="@id/keyitem_confirm_view" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x7f080674" android:layout_height="UNKNOWN_DATA_0x7f080674" android:src="@drawable/expand_confirm" android:scaleType="centerInside" android:layout_centerInParent="true" />
+</RelativeLayout>

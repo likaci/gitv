@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gala.video.albumlist4.widget.VerticalGridView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarThumbVertical="@drawable/epg_thumb" android:id="@id/epg_qalbum_multigridview" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollbarDefaultDelayBeforeFade="1500" />

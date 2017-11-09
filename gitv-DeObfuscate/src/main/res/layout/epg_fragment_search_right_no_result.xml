@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_50dp"
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            <RelativeLayout android:id="@id/epg_search_hot_title_layout" android:paddingLeft="@dimen/dimen_30dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/dimen_24dp" android:textColor="@color/albumview_yellow_color" android:id="@id/epg_no_result_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_noresult_tip1" />
+                <TextView android:textSize="@dimen/dimen_24dp" android:textColor="@color/albumview_yellow_color" android:id="@id/epg_no_result_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_noresult_tip2" android:layout_below="@id/epg_no_result_text1" />
+                <View android:background="@color/albumview_yellow_color" android:layout_width="UNKNOWN_DATA_0x7f0807aa" android:layout_height="UNKNOWN_DATA_0x7f080607" android:layout_marginTop="@dimen/dimen_10dp" android:layout_below="@id/epg_no_result_text2" />
+            </RelativeLayout>
+            <com.gala.video.app.epg.ui.albumlist.widget.PhotoGridView android:id="@id/epg_search_no_result_vipList" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0802b4" android:layout_height="UNKNOWN_DATA_0x7f0804a1" android:layout_marginLeft="@dimen/dimen_11dp" android:layout_marginTop="@dimen/dimen_1dp" android:layout_marginBottom="@dimen/dimen_010dp" android:layout_below="@id/epg_search_hot_title_layout" />
+            <com.gala.video.app.epg.ui.albumlist.widget.PhotoGridView android:id="@id/epg_search_no_result_gridview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/epg_search_no_result_vipList" />
+            <com.gala.video.lib.share.ifmanager.bussnessIF.epg.feedback.GlobalQRFeedbackPanel android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_search_noresult_QR_panel" android:paddingLeft="@dimen/dimen_70dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_30dp" android:layout_below="@id/epg_search_no_result_vipList" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

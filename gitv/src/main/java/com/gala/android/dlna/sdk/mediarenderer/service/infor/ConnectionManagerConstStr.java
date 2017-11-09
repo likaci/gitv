@@ -1,0 +1,40 @@
+package com.gala.android.dlna.sdk.mediarenderer.service.infor;
+
+public class ConnectionManagerConstStr {
+    public static final String AVTRANSPORTID = "AVTransportID";
+    public static final String CONNECTIONCOMPLETE = "ConnectionComplete";
+    public static final String CONNECTIONID = "ConnectionID";
+    public static final String CONNECTIONIDS = "ConnectionIDs";
+    public static final String CONTENTFORMATMISMATCH = "ContentFormatMismatch";
+    public static final String CONTROL_URL = "_urn:schemas-upnp-org:service:ConnectionManager_control";
+    public static final String CURRENTCONNECTIONIDS = "CurrentConnectionIDs";
+    public static final String DIRECTION = "Direction";
+    public static final String EVENTSUB_URL = "_urn:schemas-upnp-org:service:ConnectionManager_event";
+    public static final String GETCURRENTCONNECTIONIDS = "GetCurrentConnectionIDs";
+    public static final String GETCURRENTCONNECTIONINFO = "GetCurrentConnectionInfo";
+    public static final String GETPROTOCOLINFO = "GetProtocolInfo";
+    public static final String HTTP_GET = "http-get";
+    public static final String INPUT = "Input";
+    public static final String INSUFFICIENTBANDWIDTH = "InsufficientBandwidth";
+    public static final String NOT_IMPLEMENTED = "NOT_IMPLEMENTED";
+    public static final String OK = "OK";
+    public static final String OUTPUT = "Output";
+    public static final String PEERCONNECTIONID = "PeerConnectionID";
+    public static final String PEERCONNECTIONMANAGER = "PeerConnectionManager";
+    public static final String PREPAREFORCONNECTION = "PrepareForConnection";
+    public static final String PROTOCOLINFO = "ProtocolInfo";
+    public static final String RCSID = "RcsID";
+    public static final String REMOTEPROTOCOLINFO = "RemoteProtocolInfo";
+    public static final String SCPD = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<scpd xmlns=\"urn:schemas-upnp-org:service-1-0\">\r\n  <specVersion>\r\n    <major>1</major>\r\n    <minor>0</minor>\r\n  </specVersion>\r\n  <actionList>\r\n    <action>\r\n      <name>GetCurrentConnectionInfo</name>\r\n      <argumentList>\r\n        <argument>\r\n          <name>ConnectionID</name>\r\n          <direction>in</direction>\r\n          <relatedStateVariable>A_ARG_TYPE_ConnectionID</relatedStateVariable>\r\n        </argument>\r\n        <argument>\r\n          <name>RcsID</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>A_ARG_TYPE_RcsID</relatedStateVariable>\r\n        </argument>\r\n        <argument>\r\n          <name>AVTransportID</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>A_ARG_TYPE_AVTransportID</relatedStateVariable>\r\n        </argument>\r\n        <argument>\r\n          <name>ProtocolInfo</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>A_ARG_TYPE_ProtocolInfo</relatedStateVariable>\r\n        </argument>\r\n        <argument>\r\n          <name>PeerConnectionManager</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>A_ARG_TYPE_ConnectionManager</relatedStateVariable>\r\n        </argument>\r\n        <argument>\r\n          <name>PeerConnectionID</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>A_ARG_TYPE_ConnectionID</relatedStateVariable>\r\n        </argument>\r\n        <argument>\r\n          <name>Direction</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>A_ARG_TYPE_Direction</relatedStateVariable>\r\n        </argument>\r\n        <argument>\r\n          <name>Status</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>A_ARG_TYPE_ConnectionStatus</relatedStateVariable>\r\n        </argument>\r\n      </argumentList>\r\n    </action>\r\n    <action>\r\n      <name>GetProtocolInfo</name>\r\n      <argumentList>\r\n        <argument>\r\n          <name>Source</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>SourceProtocolInfo</relatedStateVariable>\r\n        </argument>\r\n        <argument>\r\n          <name>Sink</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>SinkProtocolInfo</relatedStateVariable>\r\n        </argument>\r\n      </argumentList>\r\n    </action>\r\n    <action>\r\n      <name>GetCurrentConnectionIDs</name>\r\n      <argumentList>\r\n        <argument>\r\n          <name>ConnectionIDs</name>\r\n          <direction>out</direction>\r\n          <relatedStateVariable>CurrentConnectionIDs</relatedStateVariable>\r\n        </argument>\r\n      </argumentList>\r\n    </action>\r\n  </actionList>\r\n  <serviceStateTable>\r\n    <stateVariable sendEvents=\"no\">\r\n      <name>A_ARG_TYPE_ProtocolInfo</name>\r\n      <dataType>string</dataType>\r\n    </stateVariable>\r\n    <stateVariable sendEvents=\"no\">\r\n      <name>A_ARG_TYPE_ConnectionStatus</name>\r\n      <dataType>string</dataType>\r\n      <allowedValueList>\r\n        <allowedValue>OK</allowedValue>\r\n        <allowedValue>ContentFormatMismatch</allowedValue>\r\n        <allowedValue>InsufficientBandwidth</allowedValue>\r\n        <allowedValue>UnreliableChannel</allowedValue>\r\n        <allowedValue>Unknown</allowedValue>\r\n      </allowedValueList>\r\n    </stateVariable>\r\n    <stateVariable sendEvents=\"no\">\r\n      <name>A_ARG_TYPE_AVTransportID</name>\r\n      <dataType>i4</dataType>\r\n    </stateVariable>\r\n    <stateVariable sendEvents=\"no\">\r\n      <name>A_ARG_TYPE_RcsID</name>\r\n      <dataType>i4</dataType>\r\n    </stateVariable>\r\n    <stateVariable sendEvents=\"no\">\r\n      <name>A_ARG_TYPE_ConnectionID</name>\r\n      <dataType>i4</dataType>\r\n    </stateVariable>\r\n    <stateVariable sendEvents=\"no\">\r\n      <name>A_ARG_TYPE_ConnectionManager</name>\r\n      <dataType>string</dataType>\r\n    </stateVariable>\r\n    <stateVariable sendEvents=\"yes\">\r\n      <name>SourceProtocolInfo</name>\r\n      <dataType>string</dataType>\r\n    </stateVariable>\r\n    <stateVariable sendEvents=\"yes\">\r\n      <name>SinkProtocolInfo</name>\r\n      <dataType>string</dataType>\r\n    </stateVariable>\r\n    <stateVariable sendEvents=\"no\">\r\n      <name>A_ARG_TYPE_Direction</name>\r\n      <dataType>string</dataType>\r\n      <allowedValueList>\r\n        <allowedValue>Input</allowedValue>\r\n        <allowedValue>Output</allowedValue>\r\n      </allowedValueList>\r\n    </stateVariable>\r\n    <stateVariable sendEvents=\"yes\">\r\n      <name>CurrentConnectionIDs</name>\r\n      <dataType>string</dataType>\r\n    </stateVariable>\r\n  </serviceStateTable>\r\n</scpd>";
+    public static final String SCPDURL = "_urn:schemas-upnp-org:service:ConnectionManager_scpd.xml";
+    public static final String SERVICE_ID = "urn:upnp-org:serviceId:ConnectionManager";
+    private static final String SERVICE_NAME = "ConnectionManager";
+    public static final String SERVICE_TYPE = "urn:schemas-upnp-org:service:ConnectionManager:1";
+    public static final String SINK = "Sink";
+    public static final String SINKPROTOCOLINFO = "SinkProtocolInfo";
+    public static final String SOURCE = "Source";
+    public static final String SOURCEPROTOCOLINFO = "SourceProtocolInfo";
+    public static final String STATUS = "Status";
+    public static final String UNKNOWN = "Unknown";
+    public static final String UNRELIABLECHANNEL = "UnreliableChannel";
+}

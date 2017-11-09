@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/epg_setting_bg_item_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <ImageView android:id="@id/epg_setting_bg_item_selected" android:layout_width="UNKNOWN_DATA_0x7f080738" android:layout_height="UNKNOWN_DATA_0x7f080738" android:src="@drawable/epg_setting_bg_selected_icon" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

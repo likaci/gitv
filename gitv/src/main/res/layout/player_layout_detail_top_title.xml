@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0808a8">
+    <View android:id="@id/detail_top_view" android:background="@color/detail_top_title_background_color" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="@dimen/detail_title_text_size" android:textColor="@color/detail_top_title_text_color" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_top_title_text" android:layout_width="UNKNOWN_DATA_0x7f080722" android:layout_height="wrap_content" android:layout_marginRight="@dimen/detail_right_panel_padingRight" android:singleLine="true" />
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/epg_tab_bar_decorated_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080607" />
+</FrameLayout>

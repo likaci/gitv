@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/dimen_25dp" android:textColor="@color/dialog_text_color_unsel" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/share_dialog_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="" android:lineSpacingExtra="@dimen/dimen_12dp" />
+</LinearLayout>

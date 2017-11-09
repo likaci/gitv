@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gala.video.app.player.ui.widget.listview.DetailListView android:scrollbarThumbVertical="@drawable/epg_thumb" android:id="@id/tab_content_listview" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.gala.video.lib.share.common.widget.ProgressBarItem android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/loading_list" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

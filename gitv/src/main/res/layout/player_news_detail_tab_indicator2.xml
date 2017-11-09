@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/ll_indicator" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/rl_indicator_content" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/dimen_27dp" android:textColor="@color/news_detail_tab_indicator_default" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/txt_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </FrameLayout>
+</LinearLayout>

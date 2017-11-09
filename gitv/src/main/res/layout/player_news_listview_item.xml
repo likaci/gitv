@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080821">
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/view_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080607" android:layout_marginLeft="@dimen/dimen_20dp" android:layout_marginRight="@dimen/dimen_25dp" />
+    <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/item_container" android:padding="0dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/dimen_23dp" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_content" android:paddingLeft="@dimen/dimen_4dp" android:paddingRight="@dimen/dimen_4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="2" />
+        <TextView android:textSize="@dimen/dimen_18dp" android:id="@id/tv_update_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_10dp" android:layout_marginBottom="@dimen/dimen_8dp" android:singleLine="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

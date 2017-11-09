@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/rl_episode_content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/dimen_27dp" android:textColor="@color/detail_episode_loading_text_color" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/txt_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_detail_data_loading" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_arrow_left" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0803b5" android:layout_height="UNKNOWN_DATA_0x7f080643" android:src="@drawable/player_detail_bottom_arrow_left" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_arrow_right" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0803b5" android:layout_height="UNKNOWN_DATA_0x7f080643" android:src="@drawable/player_detail_bottom_arrow_right" android:scaleType="fitXY" />
+    <com.gala.video.widget.episode.EpisodeListView android:id="@id/view_episodelistview" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

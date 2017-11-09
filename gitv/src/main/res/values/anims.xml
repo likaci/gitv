@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="apps_anima_load_item">res/anim/apps_anima_load_item.xml</anim>
+    <anim name="epg_cycle">res/anim/epg_cycle.xml</anim>
+    <anim name="epg_expand_anim_enter">res/anim/epg_expand_anim_enter.xml</anim>
+    <anim name="epg_expand_anim_out">res/anim/epg_expand_anim_out.xml</anim>
+    <anim name="epg_litchi_anima_load_item">res/anim/epg_litchi_anima_load_item.xml</anim>
+    <anim name="epg_menu_float_layer_layout_animation">res/anim/epg_menu_float_layer_layout_animation.xml</anim>
+    <anim name="epg_menu_float_layer_meta_animation">res/anim/epg_menu_float_layer_meta_animation.xml</anim>
+    <anim name="epg_shake">res/anim/epg_shake.xml</anim>
+    <anim name="epg_shake_y">res/anim/epg_shake_y.xml</anim>
+    <anim name="epg_tab_manager_add_tab_layout_animation">res/anim/epg_tab_manager_add_tab_layout_animation.xml</anim>
+    <anim name="epg_tab_manager_add_tab_meta_animation">res/anim/epg_tab_manager_add_tab_meta_animation.xml</anim>
+    <anim name="epg_tab_manager_tab_moving_scale_animation">res/anim/epg_tab_manager_tab_moving_scale_animation.xml</anim>
+    <anim name="share_page_exit">res/anim/share_page_exit.xml</anim>
+    <anim name="share_progress_rotate_anim">res/anim/share_progress_rotate_anim.xml</anim>
+    <anim name="share_toast_enter_anim">res/anim/share_toast_enter_anim.xml</anim>
+    <anim name="share_toast_exit_anim">res/anim/share_toast_exit_anim.xml</anim>
+</resources>

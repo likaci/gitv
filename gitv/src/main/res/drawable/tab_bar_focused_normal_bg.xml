@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/home_tab_bar_focus_bg" />
+    <corners android:topLeftRadius="@dimen/dimen_22dp" android:topRightRadius="@dimen/dimen_22dp" android:bottomLeftRadius="@dimen/dimen_22dp" android:bottomRightRadius="@dimen/dimen_22dp" />
+</shape>

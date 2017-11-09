@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme">
+        <item>true</item>
+        <item>3</item>
+        <item>false</item>
+    </style>
+    <style name="AppThemeBlack">
+        <item>true</item>
+        <item>3</item>
+        <item>false</item>
+    </style>
+    <style name="Dialog_Fullscreen">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>@color/transparent</item>
+        <item>true</item>
+    </style>
+    <style name="NoEnterAnim">
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="NoEnterAnimTheme">
+        <item>@style/NoEnterAnim</item>
+    </style>
+    <style name="NoEnterAnimation">
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="NoEnterAnimationTheme">
+        <item>@style/NoEnterAnimation</item>
+    </style>
+    <style name="PlaySettingRadio">
+        <item>@dimen/dimen_24sp</item>
+        <item>@color/epg_menu_panel_textcolor</item>
+        <item>11</item>
+        <item>@drawable/share_keyboard_key_bg</item>
+        <item>@dimen/dimen_428dp</item>
+        <item>@dimen/dimen_68dp</item>
+        <item>@dimen/dimen_015dp</item>
+        <item>@dimen/dimen_015dp</item>
+        <item>@color/transparent</item>
+    </style>
+    <style name="ProgressBar_Speed">
+        <item>50dp</item>
+        <item>false</item>
+        <item>?unknown_ref: 108006d</item>
+        <item>@drawable/epg_progressbar_speed</item>
+        <item>8dp</item>
+    </style>
+    <style name="Stars_info_text">
+        <item>@dimen/dimen_20dp</item>
+        <item>3</item>
+        <item>false</item>
+        <item>@dimen/dimen_15dp</item>
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="TextAppearance">
+        <item>@dimen/dimen_24sp</item>
+        <item>0</item>
+    </style>
+    <style name="TextAppearance.Medium">
+        <item>@dimen/dimen_24sp</item>
+        <item>@color/video_name_color</item>
+    </style>
+    <style name="Theme.Transparent">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="Theme_Dialog_Exit_App_Translucent_NoTitle">
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>?unknown_ref: 1030002</item>
+        <item>@color/transparent</item>
+        <item>false</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Theme_Dialog_Loading_Notitle">
+        <item>@color/transparent</item>
+        <item>true</item>
+        <item>true</item>
+        <item>11</item>
+        <item>@color/transparent</item>
+        <item>false</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="TranslucentNoTitle">
+        <item>true</item>
+    </style>
+    <style name="UpdateDialogProgressBarHorizontal">
+        <item>20dp</item>
+        <item>false</item>
+        <item>?unknown_ref: 108006d</item>
+        <item>@drawable/update_dialog_progress_horizontal</item>
+        <item>20dp</item>
+    </style>
+    <style name="alert_dialog">
+        <item>0.85</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+    </style>
+    <style name="alert_full_screen_dialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>@color/black</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>true</item>
+    </style>
+    <style name="apps_TextViewAction">
+        <item>@dimen/dimen_30dp</item>
+        <item>#f1f1f1</item>
+    </style>
+    <style name="apps_TextViewContent">
+        <item>@dimen/dimen_22dp</item>
+        <item>#f1f1f1</item>
+    </style>
+    <style name="apps_TextViewDetail">
+        <item>@dimen/dimen_22dp</item>
+        <item>#bababa</item>
+    </style>
+    <style name="apps_TextViewDownload">
+        <item>@dimen/dimen_20dp</item>
+        <item>#bababa</item>
+    </style>
+    <style name="apps_TextViewName">
+        <item>@dimen/dimen_32dp</item>
+        <item>#f1f1f1</item>
+    </style>
+    <style name="apps_TextViewTitle">
+        <item>@dimen/dimen_22dp</item>
+        <item>#bababa</item>
+    </style>
+    <style name="custom_toast_anim">
+        <item>@anim/share_toast_enter_anim</item>
+        <item>@anim/share_toast_exit_anim</item>
+    </style>
+    <style name="digit_keyboard_text_style">
+        <item>@dimen/dimen_30sp</item>
+        <item>@color/white</item>
+        <item>@drawable/share_keyboard_key_bg</item>
+    </style>
+    <style name="download_processing_dialog">
+        <item>0.85</item>
+        <item>true</item>
+    </style>
+    <style name="gitv_Launch_logo">
+        <item>@drawable/epg_gitv_welcome_default</item>
+        <item>false</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+    </style>
+    <style name="guide_login_dialog">
+        <item>0.85</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+    </style>
+    <style name="homeStyle">
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="imail_style">
+        <item>@color/imail_layer_translucent_bg</item>
+    </style>
+    <style name="litchi_Launch_logo">
+        <item>@drawable/epg_litchi_welcome</item>
+        <item>false</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+    </style>
+    <style name="plugindialog">
+        <item>@color/plugin_loading_background</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>true</item>
+    </style>
+    <style name="popwin_anim_style">
+        <item>@anim/epg_expand_anim_enter</item>
+        <item>@anim/epg_expand_anim_out</item>
+    </style>
+    <style name="usbDevice_ListDialog">
+        <item>@color/transparent</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </style>
+</resources>

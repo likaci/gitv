@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.gala.video.lib.share.common.widget.ProgressBarItem android:id="@id/epg_q_album_right_data_progress" android:paddingBottom="@dimen/dimen_150dp" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.gala.video.lib.share.ifmanager.bussnessIF.epg.feedback.GlobalQRFeedbackPanel android:id="@id/epg_q_album_right_data_no_result_panel" android:paddingBottom="@dimen/dimen_130dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

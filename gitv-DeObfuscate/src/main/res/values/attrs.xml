@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="enable">
+        <item>8</item>
+    </attr>
+    <attr name="max">
+        <item>4</item>
+    </attr>
+    <attr name="metaButtonBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="metaButtonBarButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="activeColor">
+        <item>16</item>
+    </attr>
+    <attr name="inactiveColor">
+        <item>16</item>
+    </attr>
+    <attr name="radius">
+        <item>64</item>
+    </attr>
+    <attr name="spacing">
+        <item>64</item>
+    </attr>
+    <attr name="centered">
+        <item>8</item>
+    </attr>
+    <attr name="fadeOut">
+        <item>4</item>
+    </attr>
+    <attr name="inactiveType">
+        <item>131072</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="activeType">
+        <item>131072</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="snap">
+        <item>8</item>
+    </attr>
+    <attr name="progress">
+        <item>4</item>
+    </attr>
+    <attr name="secondaryProgress">
+        <item>4</item>
+    </attr>
+    <attr name="backgroud">
+        <item>16</item>
+    </attr>
+    <attr name="progressColor">
+        <item>16</item>
+    </attr>
+    <attr name="secondaryProgressColor">
+        <item>16</item>
+    </attr>
+    <attr name="thumbOffset">
+        <item>64</item>
+    </attr>
+    <attr name="thumb">
+        <item>1</item>
+    </attr>
+    <attr name="roundColor">
+        <item>16</item>
+    </attr>
+    <attr name="roundProgressColor">
+        <item>16</item>
+    </attr>
+    <attr name="roundWidth">
+        <item>64</item>
+    </attr>
+    <attr name="textColor">
+        <item>16</item>
+    </attr>
+    <attr name="textSize">
+        <item>64</item>
+    </attr>
+    <attr name="textIsDisplayable">
+        <item>8</item>
+    </attr>
+    <attr name="style">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="sidebuffer">
+        <item>4</item>
+    </attr>
+    <attr name="max_line_is">
+        <item>4</item>
+    </attr>
+    <attr name="netSpeedtextColor">
+        <item>16</item>
+    </attr>
+    <attr name="netSpeedtextSize">
+        <item>64</item>
+    </attr>
+    <attr name="textBackground">
+        <item>1</item>
+    </attr>
+    <attr name="net_speed_recorded">
+        <item>1</item>
+    </attr>
+    <attr name="net_speed_current">
+        <item>1</item>
+    </attr>
+    <attr name="labelTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="labelTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="dividerLines">
+        <item>4</item>
+    </attr>
+    <attr name="lineWitdh">
+        <item>64</item>
+    </attr>
+    <attr name="lineHeight">
+        <item>64</item>
+    </attr>
+    <attr name="dividerlineColor">
+        <item>16</item>
+    </attr>
+    <attr name="speedlineStartColor">
+        <item>16</item>
+    </attr>
+    <attr name="speedlineEndColor">
+        <item>16</item>
+    </attr>
+    <attr name="divider_line_margin_left">
+        <item>64</item>
+    </attr>
+    <attr name="divider_line_margin_right">
+        <item>64</item>
+    </attr>
+    <attr name="labeltext">
+        <item>1</item>
+    </attr>
+    <attr name="labelWidth">
+        <item>64</item>
+    </attr>
+    <attr name="coverColor">
+        <item>16</item>
+    </attr>
+    <attr name="labelTxtMaginLeft">
+        <item>64</item>
+    </attr>
+    <attr name="cover_panel">
+        <item>1</item>
+    </attr>
+    <attr name="label_cover_panel">
+        <item>1</item>
+    </attr>
+    <attr name="label_selected_image">
+        <item>1</item>
+    </attr>
+    <attr name="main_panel_width">
+        <item>64</item>
+    </attr>
+    <attr name="main_panel_height">
+        <item>64</item>
+    </attr>
+    <attr name="shader_startColor">
+        <item>16</item>
+    </attr>
+    <attr name="shader_endColor">
+        <item>16</item>
+    </attr>
+    <attr name="tail_shader_startColor">
+        <item>16</item>
+    </attr>
+    <attr name="tail_shader_endColor">
+        <item>16</item>
+    </attr>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gridview_content_load_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_detail_data_loading" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_bottom_left_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/player_detail_bottom_arrow_left" />
+    <com.gala.video.widget.view.GridViewPager android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/view_content_gridview" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_bottom_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/player_detail_bottom_arrow_right" />
+</FrameLayout>

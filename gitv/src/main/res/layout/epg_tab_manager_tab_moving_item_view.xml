@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dimen_22sp" android:textColor="@color/albumview_normal_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_tab_moving_item_name_tab" android:layout_width="UNKNOWN_DATA_0x7f080393" android:layout_height="UNKNOWN_DATA_0x7f080845" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/epg_tab_moving_item_cover_img" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f080601" android:layout_height="UNKNOWN_DATA_0x7f0802ec" android:src="@drawable/epg_tab_manager_tab_moving_focus_guide" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/epg_tab_moving_item_lock" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0803b5" android:layout_height="UNKNOWN_DATA_0x7f080425" android:layout_marginRight="@dimen/dimen_2dp" android:layout_marginBottom="@dimen/dimen_2dp" android:src="@drawable/epg_tab_manager_tab_moving_lock" android:layout_alignRight="@id/epg_tab_moving_item_name_tab" android:layout_alignBottom="@id/epg_tab_moving_item_name_tab" />
+</merge>

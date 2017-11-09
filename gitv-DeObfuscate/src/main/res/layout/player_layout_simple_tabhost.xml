@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@id/indicator_container" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0807a8" android:layout_marginLeft="@dimen/dimen_53dp" />
+    <ImageView android:background="@color/menu_panel_horizonal_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080607" />
+    <FrameLayout android:id="@id/content_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

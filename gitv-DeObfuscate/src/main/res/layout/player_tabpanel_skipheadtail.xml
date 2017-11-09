@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/ll_skipheadtail" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalScrollView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/rg" android:focusable="false" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/player_radiogroup_margin_left" android:fillViewport="true">
+        <com.gala.video.widget.MyRadioGroup android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/rg_skipheadtail" android:focusable="true" android:nextFocusLeft="@id/rg_skipheadtail" android:nextFocusRight="@id/rg_skipheadtail" android:nextFocusUp="0x1020013" android:nextFocusDown="@id/rg_skipheadtail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_5dp" />
+    </HorizontalScrollView>
+</LinearLayout>

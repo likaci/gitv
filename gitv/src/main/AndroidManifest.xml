@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="68882" android:versionName="7.10" package="com.gitvdemo.video" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+    <uses-feature android:glEsVersion="20000" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.type.television" android:required="true" />
+    <uses-feature android:name="android.hardware.usb.host" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_PROCESS_FOREGROUND" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
+    <uses-permission android:name="android.permission.USE_SPECIAL_UDISK" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.READ_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.INSTALL_LOCATION_PROVIDER" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="com.smit.icast.DVB_SERVICE_PERMISSION" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application android:theme="@style/AppThemeBlack" android:label="银河奇异果" android:icon="@drawable/ic_launcher_gitv_litchi" android:name="com.gala.video.HostApp" android:allowBackup="true" android:largeHeap="true" android:supportsRtl="true">
+        <uses-library android:name="android.test.runner" />
+        <meta-data android:name="BaiduMobAd_STAT_ID" android:value="ee59b3385d" />
+        <meta-data android:name="BaiduMobAd_EXCEPTION_LOG" android:value="true" />
+        <meta-data android:name="BaiduMobAd_SEND_STRATEGY" android:value="SET_TIME_INTERVAL" />
+        <meta-data android:name="BaiduMobAd_TIME_INTERVAL" android:value="1" />
+        <meta-data android:name="BaiduMobAd_CELL_LOCATION" android:value="true" />
+        <activity android:theme="@style/gitv_Launch_logo" android:name="com.gala.video.app.epg.HomeActivity" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.home.HomeActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.star.StarsActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.star.StarsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.imsg.MsgCenterActivity">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.imsg.MsgCenterActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.imsg.MsgCenterDetailActivity" />
+        <activity android:name="com.gala.video.app.epg.ui.albumlist.AlbumActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.albumlist.AlbumActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.uikit.ui.multisubject.MultiSubjectActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.multisubject.MultiSubjectActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.solotab.SoloTabActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.solotab.SoloTabActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.ucenter.record.RecordFavouriteActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.ucenter.record.RecordFavouriteActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.netdiagnose.NetDiagnoseActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.netdiagnose.NetDiagnoseActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.search.QSearchActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.search.QSearchActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.setting.FeedbackActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.setting.FeedbackActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.setting.FaultFeedbackActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.setting.FaultFeedbackActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.setting.ConcernWeChatActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.setting.ConcernWeChatActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.setting.SettingMainActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden" />
+        <activity android:name="com.gala.video.app.epg.ui.ucenter.account.LoginActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.ucenter.account.LoginActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.ucenter.UcenterActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.ucenter.UcenterActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="银河奇异果" android:name="com.gala.video.app.epg.ui.ucenter.account.ActivateActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.ucenter.account.ActivateActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="银河奇异果" android:name="com.gala.video.app.epg.ui.ucenter.account.VipRightsActivateActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.ucenter.account.VipRightsActivateActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.background.SettingBGActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.background.SettingBGActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.setting.QPlayerSettingsActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.ui.QPlayerSettingsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.setting.UpgradeActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden" />
+        <activity android:name="com.gala.video.app.epg.ui.setting.AboutActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.setting.AboutActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.setting.ui.SettingAboutForLauncherActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.setting.ui.SettingAboutForLauncherActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.netspeed.QNetSpeedActivity" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.netspeed.QNetSpeedActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.web.WebSubjectActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.web.WebSubjectActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.web.WebCommonActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.web.WebCommonActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.applist.activity.AppLauncherActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden" />
+        <activity android:name="com.gala.video.app.epg.ui.applist.AppListActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.applist.AppListActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.epg.ui.subjectreview.QSubjectReviewActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.ui.subjectreview.QSubjectReviewActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:name="com.gala.video.app.epg.home.widget.menufloatlayer.MenuFloatLayerSettingActivity" android:screenOrientation="landscape" android:configChanges="locale|keyboard|keyboardHidden" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:name="com.gala.video.app.epg.home.widget.tabmanager.TabManagerActivity" android:screenOrientation="landscape" android:configChanges="locale|keyboard|keyboardHidden" />
+        <receiver android:name="com.gala.video.app.epg.home.widget.actionbar.MessagePromptReceiver">
+            <intent-filter>
+                <action android:name="com.tv.system.imsg.action.MESSAGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.gala.video.app.epg.multiscreen.MultiScreenReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.gala.video.app.epg.AppAddReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/NoEnterAnimationTheme" android:name="com.gala.video.app.player.albumdetail.AlbumDetailActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.albumdetail.AlbumDetailActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="igala" android:host="com.gala.video" android:pathPrefix="/detail" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.player.utils.debug.DebugOptionsActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.debug.DebugOptionsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.player.PlayerAdapterSettingActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.PlayerAdapterSettingActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.player.NewsDetailActivity" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.NewsDetailActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.player.PlayerActivity" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.PlayerActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="igala" android:host="com.gala.video" android:pathPrefix="/play" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.player.SystemInfoTestActivity" android:screenOrientation="landscape" android:configChanges="touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.SystemInfoTestActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.gala.video.lib.share.ifimpl.openplay.service.feature.appinfo.AppInfoBroadcast" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.gala.tv.client.ACTION_REQUEST_APPINFO_ACTION" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.tvos.appdetailpage.ui.AppStoreDetailActivity" android:exported="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.gitv.tvappstore.action.AppStoreDetailActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/TranslucentNoTitle" android:name="com.gala.video.lib.share.ifimpl.openplay.broadcast.activity.LoadingActivity" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_PLAYVIDEO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_ALBUMLIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_SUBJECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_SEARCHRESULT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_PERSON_CENTER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_PURCHASE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.lib.share.ifimpl.openplay.service.activity.OpenApiLoadingActivity" android:launchMode="singleTask" />
+        <activity android:name="com.gala.video.lib.share.ifimpl.ads.AdImageShowActivity" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.lib.share.ifimpl.ads.AdImageShowActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.gala.video.lib.share.ifimpl.imsg.IMsgReceiver" android:process=".pushdaemonservice">
+            <intent-filter>
+                <action android:name="com.push.pushservice.action.MESSAGE" />
+                <action android:name="com.push.pushservice.action.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.gala.video.lib.share.ifimpl.logrecord.receiver.LogRecordMsgReceiver">
+            <intent-filter>
+                <action android:name="com.tv.system.imsg.action.MESSAGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.gala.video.lib.share.ifimpl.openplay.broadcast.QInterplayReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_PLAYVIDEO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_ALBUMLIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_SUBJECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_SEARCHRESULT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_PERSON_CENTER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_PURCHASE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.action.ACTION_HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <service android:label="PushService" android:name="com.push.pushservice.api.PushService" android:exported="true" android:process=".pushdaemonservice">
+            <intent-filter>
+                <action android:name="com.push.pushservice.api.PushService" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.push.pushservice.receiver.PushServiceReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.gala.video.lib.share.ifimpl.openplay.service.OpenApiServer" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.qiyi.tv.client.ACTION_SERVICE_XHKOx1g0d2penbvcpj25" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.qiyi.tv.client.ACTION_SERVICE_XHKO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.gala.tv.voice.service.VoiceService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.gala.tv.sdk.ACTION_VOICE_SERVICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.gala.sdk.plugin.server.storage.StorageServer" android:enabled="true" android:exported="true" android:process=":player">
+            <intent-filter>
+                <action android:name="com.gala.sdk.plugin.server.storage.StorageServer" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.gala.video.lib.share.ifimpl.logrecord.service.MessengerServiceProxy" android:persistent="true">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.project.logrecord.MessengerServiceProxy" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.gala.video.lib.share.ifimpl.logrecord.service.LRProxyService">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.project.logrecord.LRProxyService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <provider android:name="com.gala.video.lib.share.system.contentprovider.BaseContentProvider" android:authorities="com.gitvdemo.video.lib.share.system.contentprovider.BaseContentProvider" />
+        <service android:name="com.gala.video.lib.share.ifimpl.reserve.ReserveService" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.lib.share.ifimpl.reserve.ReserveService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.gala.video.app.epg.reserve.EpgReserveService" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.epg.reserve.EpgReserveService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/NoEnterAnimTheme" android:name="com.gala.video.app.player.MultiProcAlbumDetailActivity" android:process=":player" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.MultiProcAlbumDetailActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="igala" android:host="com.gala.video" android:pathPrefix="/detail" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.player.MultiProcNewsDetailActivity" android:process=":player" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.MultiProcNewsDetailActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gala.video.app.player.MultiProcPlayerActivity" android:process=":player" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.MultiProcPlayerActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="igala" android:host="com.gala.video" android:pathPrefix="/play" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.gala.video.app.player.feature.PlayerMultiProcessService" android:enabled="true" android:process=":player">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.PlayerMultiProcessService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.gala.video.app.player.reserve.PlayerReserveService" android:enabled="true" android:process=":player">
+            <intent-filter>
+                <action android:name="com.gitvdemo.video.app.player.reserve.PlayerReserveService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

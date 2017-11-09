@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/dimen_34dp" android:textColor="@color/button_text_color_normal" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_keyitem00" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x7f08092e" android:layout_height="UNKNOWN_DATA_0x7f08092e" />

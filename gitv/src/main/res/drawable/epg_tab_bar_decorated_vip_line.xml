@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/home_vip_tab_name_text_focus_shader_start" android:endColor="@color/home_vip_tab_name_text_focus_shader_end" android:type="linear" />
+</shape>

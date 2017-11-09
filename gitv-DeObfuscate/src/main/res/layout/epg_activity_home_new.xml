@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/epg_main_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_placeholder" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="UNKNOWN_DATA_0x0" />
+    <com.gala.video.app.epg.home.widget.RootFrameLayout android:id="@id/epg_carousel_window" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/epg_top_layout" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0808a8" layout="@layout/epg_home_top_bar" />
+    <com.gala.video.app.epg.home.widget.pager.ScrollViewPager android:id="@id/epg_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dimen_126dp" />
+    <FrameLayout android:layout_width="UNKNOWN_DATA_0x7f0802f1" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_74dp"
+        <FrameLayout android:id="@id/epg_tab_layout_host" android:paddingLeft="@dimen/dimen_56dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gala.video.app.epg.home.widget.tabhost.TabBarHost android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/epg_tab_host" android:scrollbars="UNKNOWN_DATA_0x0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x7f080245" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/epg_tab_host_leftimage" android:layout_width="UNKNOWN_DATA_0x7f08068e" android:layout_height="UNKNOWN_DATA_0x7f08079c" />
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_tab_host_rightimage" android:layout_width="UNKNOWN_DATA_0x7f08068e" android:layout_height="UNKNOWN_DATA_0x7f08079c" />
+        </FrameLayout>
+        <com.gala.video.app.epg.home.widget.tabhost.TabBarSettingView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_home_tab_setting_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_7dp" android:layout_marginBottom="@dimen/dimen_6dp" />
+    </FrameLayout>
+    <com.gala.video.lib.share.uikit.view.FocusView android:id="@id/card_focus" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0801f6" android:layout_height="UNKNOWN_DATA_0x7f0801f6" android:layerType="none" />
+</merge>

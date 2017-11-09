@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/rl_gallery_content" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/dimen_17dp" android:textColor="@color/detail_text_color_default" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_30dp" android:layout_marginTop="@dimen/dimen_28dp" />
+    <com.gala.video.albumlist4.widget.HorizontalGridView android:id="@id/horizontalgirdview" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_30dp" android:layout_marginTop="@dimen/dimen_50dp" />
+</FrameLayout>

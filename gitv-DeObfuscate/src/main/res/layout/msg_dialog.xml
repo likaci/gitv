@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/epg_msg_dialog_focus" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/epg_img_msg_dialog_poster" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f080494" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/epg_msg_dialog_text" android:background="@drawable/epg_bg_dialog_msg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/dimen_20dp" android:textColor="@color/msg_dialog_text" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_tv_msg_dialog_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_53dp" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/dimen_22dp" android:textColor="@color/msg_dialog_text" android:id="@id/epg_tv_msg_dialog_hint2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_8dp" android:text="@string/msg_dialog_hint" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/epg_concern_wechat_main_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/epg_concern_wechat_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <com.gala.video.lib.share.common.widget.ProgressBarItem android:id="@id/epg_concern_wechat_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/epg_concern_wechat_error_layout_viewstub" android:layout="@layout/epg_concern_wechat_error_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

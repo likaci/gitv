@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/dimen_21dp" android:textColor="#f1f1f1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_download_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_app_download_point_app" android:shadowColor="#311800" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    <ProgressBar android:id="@id/epg_progressbar_rate" android:layout_width="UNKNOWN_DATA_0x7f080722" android:layout_height="UNKNOWN_DATA_0x7f0806ca" android:layout_marginTop="@dimen/dimen_10dp" style="@style/UpdateDialogProgressBarHorizontal" />
+    <TextView android:textSize="@dimen/dimen_21dp" android:textColor="#f1f1f1" android:id="@id/epg_progressbar_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20dp" android:shadowColor="#311800" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+</LinearLayout>

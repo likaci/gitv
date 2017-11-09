@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="full_keyboard">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+    </array>
+    <array name="outputmode_entries_display">
+        <item>自动检测</item>
+        <item>1080P\t60Hz</item>
+        <item>1080P\t50Hz</item>
+        <item>1080i\t60Hz</item>
+        <item>1080i\t50Hz</item>
+        <item>720P\t\t60Hz</item>
+        <item>720P\t\t50Hz</item>
+    </array>
+    <array name="str_digit_auto_output_entrys">
+        <item>解码输出</item>
+        <item>源码输出</item>
+    </array>
+    <array name="str_digit_auto_output_values">
+        <item>PCM</item>
+        <item>HDMI passthrough</item>
+    </array>
+    <array name="str_drc_entrys">
+        <item>开</item>
+        <item>关</item>
+    </array>
+    <array name="str_drc_values">
+        <item>enable</item>
+        <item>disable</item>
+    </array>
+    <array name="voice_aixin_array">
+        <item>@string/voice_aixin_default</item>
+    </array>
+    <array name="voice_channel_all_array">
+        <item>@string/voice_channel_all_default</item>
+        <item>更多频道</item>
+    </array>
+    <array name="voice_channel_cartoon_array">
+        <item>@string/voice_channel_cartoon_default</item>
+        <item>动画片</item>
+        <item>动漫</item>
+    </array>
+    <array name="voice_channel_child_array">
+        <item>@string/voice_channel_child_default</item>
+        <item>儿童频道</item>
+        <item>少儿</item>
+    </array>
+    <array name="voice_channel_hd_array">
+        <item>@string/voice_channel_hd_default</item>
+        <item>1080P专区</item>
+        <item>高清频道</item>
+        <item>1080P频道</item>
+    </array>
+    <array name="voice_channel_name_suffix_array">
+        <item>@string/voice_channel_name_suffix_default</item>
+    </array>
+    <array name="voice_cinema_array">
+        <item>@string/voice_cinema_default</item>
+        <item>私人院线</item>
+    </array>
+    <array name="voice_daily_news_array">
+        <item>@string/voice_daily_news_default</item>
+    </array>
+    <array name="voice_foot_play_array">
+        <item>@string/voice_foot_play_default</item>
+    </array>
+    <array name="voice_haier_cinema_1080p_array">
+        <item>@string/voice_haier_cinema_1080p</item>
+    </array>
+    <array name="voice_haier_cinema_jiqing_array">
+        <item>@string/voice_haier_cinema_jiqing</item>
+    </array>
+    <array name="voice_haier_cinema_mine_array">
+        <item>@string/voice_haier_cinema_mine</item>
+    </array>
+    <array name="voice_home_app_array">
+        <item>@string/voice_home_app_default</item>
+    </array>
+    <array name="voice_home_channel_array">
+        <item>@string/voice_home_channel_default</item>
+    </array>
+    <array name="voice_home_game_array">
+        <item>@string/voice_home_game_default</item>
+    </array>
+    <array name="voice_home_recommendation_array">
+        <item>@string/voice_home_recommendation_default</item>
+    </array>
+    <array name="voice_home_setting_array">
+        <item>@string/voice_home_setting_default</item>
+    </array>
+    <array name="voice_home_tv_array">
+        <item>@string/voice_home_tv_default</item>
+    </array>
+    <array name="voice_hot_play_array">
+        <item>@string/voice_hot_play_default</item>
+    </array>
+    <array name="voice_key_back_array">
+        <item>@string/voice_key_back_default</item>
+        <item>关闭</item>
+        <item>取消</item>
+        <item>退出</item>
+    </array>
+    <array name="voice_key_click_array">
+        <item>@string/voice_key_click_default</item>
+        <item>点击</item>
+        <item>确定</item>
+        <item>单击</item>
+    </array>
+    <array name="voice_key_down_array">
+        <item>@string/voice_key_down_default</item>
+        <item>下</item>
+    </array>
+    <array name="voice_key_home_array">
+        <item>@string/voice_key_home_default</item>
+        <item>主页</item>
+    </array>
+    <array name="voice_key_left_array">
+        <item>@string/voice_key_left_default</item>
+        <item>左</item>
+    </array>
+    <array name="voice_key_menu_array">
+        <item>@string/voice_key_menu_default</item>
+    </array>
+    <array name="voice_key_page_down_array">
+        <item>@string/voice_key_page_down_default</item>
+        <item>下页</item>
+        <item>翻页</item>
+    </array>
+    <array name="voice_key_page_up_array">
+        <item>@string/voice_key_page_up_default</item>
+        <item>上页</item>
+    </array>
+    <array name="voice_key_right_array">
+        <item>@string/voice_key_right_default</item>
+        <item>右</item>
+    </array>
+    <array name="voice_key_up_array">
+        <item>@string/voice_key_up_default</item>
+        <item>上</item>
+    </array>
+    <array name="voice_more_app_array">
+        <item>@string/voice_more_app_default</item>
+        <item>全部应用</item>
+        <item>更多应用程序</item>
+        <item>全部应用程序</item>
+        <item>全部程序</item>
+        <item>更多程序</item>
+    </array>
+    <array name="voice_new_live_array">
+        <item>@string/voice_new_live_default</item>
+    </array>
+    <array name="voice_new_update_array">
+        <item>@string/voice_new_update_default</item>
+        <item>7日更新</item>
+        <item>七日更新</item>
+        <item>最近更新</item>
+        <item>七日最新</item>
+    </array>
+    <array name="voice_play_history_array">
+        <item>@string/voice_play_history_default</item>
+        <item>播放历史</item>
+        <item>观看历史</item>
+        <item>历史记录</item>
+        <item>历史观看</item>
+    </array>
+    <array name="voice_search_array">
+        <item>@string/voice_search_default</item>
+    </array>
+    <array name="voice_setting_about_array">
+        <item>@string/voice_setting_about_default</item>
+    </array>
+    <array name="voice_setting_account_array">
+        <item>@string/voice_setting_account_default</item>
+    </array>
+    <array name="voice_setting_audio_array">
+        <item>@string/voice_setting_audio_default</item>
+    </array>
+    <array name="voice_setting_background_array">
+        <item>@string/voice_setting_background_default</item>
+    </array>
+    <array name="voice_setting_brightness_array">
+        <item>@string/voice_setting_brightness_default</item>
+    </array>
+    <array name="voice_setting_favorite_array">
+        <item>@string/voice_setting_favorite_default</item>
+    </array>
+    <array name="voice_setting_feedback_array">
+        <item>@string/voice_setting_feedback_default</item>
+    </array>
+    <array name="voice_setting_help_array">
+        <item>@string/voice_setting_help_default</item>
+    </array>
+    <array name="voice_setting_multiscreen_array">
+        <item>@string/voice_setting_multiscreen_default</item>
+    </array>
+    <array name="voice_setting_net_speed_array">
+        <item>@string/voice_setting_net_speed_default</item>
+    </array>
+    <array name="voice_setting_network_array">
+        <item>@string/voice_setting_network_default</item>
+    </array>
+    <array name="voice_setting_offline_array">
+        <item>@string/voice_setting_offline_default</item>
+    </array>
+    <array name="voice_setting_play_array">
+        <item>@string/voice_setting_play_default</item>
+    </array>
+    <array name="voice_setting_tv_source_array">
+        <item>@string/voice_setting_tv_source_default</item>
+    </array>
+    <array name="voice_setting_upgrade_array">
+        <item>@string/voice_setting_upgrade_default</item>
+    </array>
+    <array name="voice_system_setting_array">
+        <item>@string/voice_system_setting_default</item>
+    </array>
+    <array name="voice_topic_review_array">
+        <item>@string/voice_topic_review_default</item>
+    </array>
+    <array name="voice_tv_source_analog_array">
+        <item>@string/voice_tv_source_analog_default</item>
+        <item>切换至模拟电视</item>
+        <item>切换信源至模拟电视</item>
+    </array>
+    <array name="voice_tv_source_digital_array">
+        <item>@string/voice_tv_source_digital_default</item>
+        <item>切换至数字电视</item>
+        <item>切换信源至数字电视</item>
+    </array>
+    <array name="voice_tv_source_hdmi_1_array">
+        <item>@string/voice_tv_source_hdmi_1_default</item>
+        <item>HDMI一</item>
+        <item>切换信源至HDMI一</item>
+        <item>切换信源至HDMI1</item>
+        <item>切换至HDMI1</item>
+        <item>切换至HDMI一</item>
+    </array>
+    <array name="voice_tv_source_hdmi_2_array">
+        <item>@string/voice_tv_source_hdmi_2_default</item>
+        <item>HDMI二</item>
+        <item>切换信源至HDMI2</item>
+        <item>切换信源至HDMI二</item>
+        <item>切换至HDMI2</item>
+        <item>切换至HDMI二</item>
+    </array>
+    <array name="voice_tv_source_hdmi_3_array">
+        <item>@string/voice_tv_source_hdmi_3_default</item>
+        <item>HDMI三</item>
+        <item>切换信源至HDMI3</item>
+        <item>切换信源至HDMI三</item>
+        <item>切换至HDMI3</item>
+        <item>切换至HDMI三</item>
+    </array>
+    <array name="voice_tv_source_video_1_array">
+        <item>@string/voice_tv_source_video_1_default</item>
+        <item>视频1</item>
+        <item>切换信源至视频一</item>
+        <item>切换信源至视频一</item>
+        <item>切换至视频1</item>
+        <item>切换至视频一</item>
+    </array>
+    <array name="voice_tv_source_video_2_array">
+        <item>@string/voice_tv_source_video_2_default</item>
+        <item>视频2</item>
+        <item>切换信源至视频2</item>
+        <item>切换信源至视频二</item>
+        <item>切换至视频2</item>
+        <item>切换至视频二</item>
+    </array>
+    <array name="week_days">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </array>
+</resources>

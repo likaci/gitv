@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.75">
+    <ImageView android:id="@id/play_overflow_control_seek" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0806e2" android:layout_marginTop="@dimen/dimen_35dp" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/play_time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10dp" android:layout_below="@id/play_overflow_control_seek" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/dimen_18dp" android:textColor="#ffb400" android:id="@id/play_overflow_currentpos_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/dimen_18dp" android:textColor="#797a7e" android:id="@id/play_overflow_duration_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/play_overflow_progress_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0806fc" android:layout_marginLeft="@dimen/dimen_25dp" android:layout_marginTop="@dimen/dimen_10dp" android:layout_marginRight="@dimen/dimen_25dp" android:layout_marginBottom="@dimen/dimen_25dp" android:maxHeight="@dimen/dimen_3dp" android:max="100" android:progress="10" android:layout_below="@id/play_time_view" style="?unknown_attr_ref: 1010078" />
+</RelativeLayout>

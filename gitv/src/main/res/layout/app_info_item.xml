@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/share_item_rect_selector" android:layout_width="UNKNOWN_DATA_0x7f0805d8" android:layout_height="UNKNOWN_DATA_0x7f0805d8"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x7f0805d8" android:layout_height="UNKNOWN_DATA_0x7f0805d8">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/app_info_icon" android:layout_width="UNKNOWN_DATA_0x7f080984" android:layout_height="UNKNOWN_DATA_0x7f080984" android:layout_marginTop="@dimen/dimen_26dp" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/dimen_20dp" android:textColor="#b2b2b2" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/app_info_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginBottom="@dimen/dimen_27dp" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

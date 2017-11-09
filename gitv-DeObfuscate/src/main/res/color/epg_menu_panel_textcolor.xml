@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_checked="true" android:color="@color/keyboard_text_hl" />
+    <item android:state_focused="false" android:state_checked="true" android:color="@color/gala_green" />
+    <item android:state_focused="false" android:state_checked="false" android:color="@color/card_grey_color" />
+    <item android:state_focused="true" android:state_checked="false" android:color="@color/keyboard_text_hl" />
+</selector>

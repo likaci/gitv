@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@id/epg_stars_status_layout_id" android:visibility="gone" android:layout="@layout/share_stars_status_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_370dp" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/epg_stars_status_loadding_id" android:visibility="gone" android:layout="@layout/share_stars_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_370dp" android:layout_centerHorizontal="true" />
+    <com.gala.video.app.epg.ui.star.widget.StarVerticalGridView android:id="@id/epg_stars_gridview_id" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/epg_stars_top_id" android:focusable="false" android:visibility="gone" android:layout="@layout/epg_layout_stars_top_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0808a8" />
+    <ViewStub android:id="@id/epg_stars_full_description_id" android:focusable="true" android:visibility="gone" android:layout="@layout/share_layout_detail_full_description" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

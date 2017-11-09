@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/epg_setting_container" android:layout_width="match_parent" android:layout_height="match_parent"
+        <RelativeLayout android:id="@id/epg_setting_page_title" android:background="@color/home_topbar_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0808a8">
+            <TextView android:textSize="@dimen/dimen_20dp" android:textColor="@color/album_tag_des_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_setting_sum_text" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f080643" android:layout_marginTop="@dimen/dimen_25dp" android:layout_marginRight="@dimen/dimen_5dp" android:layout_marginBottom="@dimen/dimen_6dp" android:text="10个" android:includeFontPadding="false" android:layout_toLeftOf="@id/epg_setting_title_line" />
+            <View android:id="@id/epg_setting_title_line" android:background="@color/gray" android:layout_width="UNKNOWN_DATA_0x7f080607" android:layout_height="UNKNOWN_DATA_0x7f08068e" android:layout_marginTop="@dimen/dimen_22dp" android:layout_toLeftOf="@id/epg_setting_title_text" />
+            <TextView android:textSize="@dimen/dimen_33dp" android:textColor="@color/albumview_normal_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_setting_title_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dimen_7dp" android:layout_marginRight="@dimen/dimen_39dp" android:text="@string/albumlist_setting" android:layout_alignParentRight="true" />
+            <View android:background="@drawable/epg_tab_bar_decorated_line" android:focusable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080607" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <com.gala.video.albumlist4.widget.VerticalGridView android:scrollbarSize="@dimen/dimen_15dp" android:scrollbarThumbVertical="@drawable/epg_thumb" android:scrollbarStyle="insideInset" android:id="@id/epg_setting_gridview_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_125dp" android:layout_marginBottom="@dimen/dimen_2dp" />
+    </RelativeLayout>
+</merge>

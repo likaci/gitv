@@ -1,0 +1,10 @@
+package com.gala.tvapi.p008b.p022n;
+
+import com.gala.tvapi.p008b.C0214a;
+
+public final class C0246e extends C0214a {
+    public C0246e() {
+        this.a = "05025032161000000000";
+        this.c = "05025032161000000000";
+    }
+}

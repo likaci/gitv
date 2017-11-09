@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gala.video.app.epg.ui.multisubject.widget.view.MultiSubjectBgView android:id="@id/epg_multi_subject_bg_view_id" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.gala.video.albumlist.widget.BlocksView android:id="@id/epg_multi_subject_gridview_id" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dimen_293dp" />
+    <ViewStub android:id="@id/epg_multi_subject_status_layout_id" android:visibility="gone" android:layout="@layout/share_stars_status_panel" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/epg_multi_subject_status_loadding_id" android:visibility="gone" android:layout="@layout/share_stars_loading" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <com.gala.video.lib.share.uikit.view.FocusView android:id="@id/card_focus" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0801f6" android:layout_height="UNKNOWN_DATA_0x7f0801f6" android:layerType="none" />
+</RelativeLayout>

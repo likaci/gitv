@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/update_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="#f1f1f1" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_107dp" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/ll_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_47dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textColor="#ffb400" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gala.video.startup.view.LoadingIndicatorView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/load" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" />
+    </LinearLayout>
+    <TextView android:textColor="#b2b2b2" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="UNKNOWN_DATA_0x7f080797" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_80dp" android:maxLines="8" android:includeFontPadding="false" android:layout_above="@+id/ll_tip" android:layout_below="@+id/tv_title" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/dimen_10dp" />
+</RelativeLayout>

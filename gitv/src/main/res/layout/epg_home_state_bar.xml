@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/dimen_20dp" android:textColor="@color/home_state_bar_time" android:id="@id/epg_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2012:10:23" />
+    <ImageView android:id="@id/epg_divider" android:background="@color/home_state_bar_divider" android:layout_width="UNKNOWN_DATA_0x7f080607" android:layout_height="UNKNOWN_DATA_0x7f080574" android:layout_marginLeft="@dimen/dimen_13dp" />
+    <ImageView android:id="@id/epg_net_state" android:layout_width="UNKNOWN_DATA_0x7f08068e" android:layout_height="UNKNOWN_DATA_0x7f08062b" android:layout_marginLeft="@dimen/dimen_13dp" android:src="@drawable/share_wifi_state_none" />
+    <ImageView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/epg_phone_connect" android:focusable="false" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f08068e" android:layout_height="UNKNOWN_DATA_0x7f08062b" android:layout_marginLeft="@dimen/dimen_13dp" android:src="@drawable/epg_main_page_image_phone_connect" />
+    <ImageView android:id="@id/epg_usb_storage_state" android:focusable="false" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f08068e" android:layout_height="UNKNOWN_DATA_0x7f08062b" android:layout_marginLeft="@dimen/dimen_13dp" android:src="@drawable/epg_main_page_image_usb" />
+    <ImageView android:id="@id/epg_logo_id" android:layout_width="UNKNOWN_DATA_0x7f080223" android:layout_height="UNKNOWN_DATA_0x7f0806ca" android:src="@drawable/share_gitv" />
+</LinearLayout>

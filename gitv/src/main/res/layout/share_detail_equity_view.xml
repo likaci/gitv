@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:includeFontPadding="false">
+    <ImageView android:id="@id/share_detail_iv_album_equity" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x7f080708" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_225dp" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/dimen_20dp" android:textColor="@color/detail_top_title_coupon_and_price" android:ellipsize="end" android:id="@id/share_detail_tv_album_coupon_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x7f080708" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_312dp" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/dimen_20dp" android:textColor="@color/detail_top_title_coupon_and_price" android:ellipsize="end" android:id="@id/share_detail_tv_album_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x7f080708" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_85dp" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/dimen_20dp" android:textColor="@color/detail_top_title_origin_price" android:ellipsize="end" android:id="@id/share_detail_tv_album_origin_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

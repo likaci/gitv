@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/apps_appImage" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="UNKNOWN_DATA_0x7f08069f" android:layout_height="UNKNOWN_DATA_0x7f080596" android:layout_marginLeft="@dimen/dimen_6dp" android:layout_marginTop="@dimen/dimen_6dp" android:layout_marginRight="@dimen/dimen_6dp" android:layout_marginBottom="@dimen/dimen_6dp" android:src="@drawable/apps_image_default_bg" android:scaleType="fitXY" android:layout_centerInParent="true" />
+</RelativeLayout>

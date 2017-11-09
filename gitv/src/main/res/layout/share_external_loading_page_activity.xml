@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/share_loading_bg" android:background="@drawable/share_loading_page_bg" android:padding="@dimen/dimen_20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/share_progressbar_logo_image_id" android:layout_width="UNKNOWN_DATA_0x7f0806ad" android:layout_height="UNKNOWN_DATA_0x7f080679" android:src="@drawable/share_loading_logo_icon" android:layout_centerVertical="true" />
+</RelativeLayout>

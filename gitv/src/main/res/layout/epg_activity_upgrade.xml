@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/epg_upgrade_setting" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/epg_setting_tag" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f080783" android:layout_height="UNKNOWN_DATA_0x7f080783" android:layout_marginLeft="@dimen/dimen_50dp" android:layout_marginTop="@dimen/dimen_40dp" android:src="@drawable/epg_title_button" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/dimen_40dp" android:textColor="@color/subject_default_text_color" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/epg_setting_title" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_8dp" android:text="@string/upgrade" android:layout_toRightOf="@id/epg_setting_tag" android:layout_alignTop="@id/epg_setting_tag" android:layout_alignBottom="@id/epg_setting_tag" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="false">
+        <TextView android:textSize="@dimen/dimen_24dp" android:id="@id/epg_upgrade_cur_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgrade_current_version" />
+        <TextView android:textSize="@dimen/dimen_24dp" android:id="@id/epg_upgrade_message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/epg_layout_update_action" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f080815" android:layout_marginTop="@dimen/dimen_10dp">
+            <Button android:textSize="@dimen/dimen_24dp" android:textColor="#f1f1f1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_btn_start_upgrade" android:background="@color/gala_green" android:focusable="true" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f080687" android:layout_height="UNKNOWN_DATA_0x7f080815" android:text="@string/update_imm" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gala.video.lib.share.common.widget.ProgressBarItem android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_check_update_progress" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f08068e" />
+                <TextView android:textSize="@dimen/dimen_24dp" android:id="@id/epg_checking_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

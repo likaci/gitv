@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <CheckBox android:textSize="@dimen/dimen_30dp" android:textColor="@color/white" android:id="@id/cb_perf_floatingwindow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48dp" android:text="@string/dbg_floating_window" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <CheckBox android:textSize="@dimen/dimen_30dp" android:textColor="@color/white" android:id="@id/cb_perf_leftfloatingwindow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48dp" android:text="@string/dbg_leftfloating_window" android:layout_below="@id/cb_perf_floatingwindow" android:layout_alignParentLeft="true" />
+</RelativeLayout>

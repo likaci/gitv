@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/epg_my_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gala.video.albumlist.widget.BlocksView android:id="@id/epg_ucenter_page" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:id="@id/epg_my_quick_login" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/epg_mycenter_quicklogin_view" />
+    <com.gala.video.lib.share.common.widget.ProgressBarItem android:id="@id/epg_my_card_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_420dp" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/dimen_28dp" android:id="@id/epg_txt_my_data_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_420dp" android:layout_centerHorizontal="true" />
+    <com.gala.video.lib.share.uikit.view.FocusView android:id="@id/card_focus" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0801f6" android:layout_height="UNKNOWN_DATA_0x7f0801f6" android:layerType="none" />
+    <com.gala.video.app.epg.ui.ucenter.account.ui.widget.UCenterFlashView android:id="@id/epg_ucenter_flash_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_222dp" android:layout_centerHorizontal="true" />
+</RelativeLayout>

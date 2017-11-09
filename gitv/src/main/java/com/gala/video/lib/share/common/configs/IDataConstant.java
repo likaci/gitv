@@ -1,0 +1,40 @@
+package com.gala.video.lib.share.common.configs;
+
+public class IDataConstant {
+    public static final int CORNER_COUPONS = 7;
+    public static final int CORNER_DOLBY = 4;
+    public static final int CORNER_DUBO = 2;
+    public static final int CORNER_DUJIA = 3;
+    public static final int CORNER_SINGLE_BUY = 1;
+    public static final int CORNER_SUBSCIBLE = 8;
+    public static final int CORNER_THREE_D = 5;
+    public static final int CORNER_VIP = 0;
+    public static final int CORNER_ZHUAN_TI = 6;
+    public static final int FIELD_CHANNELID = 2;
+    public static final int FIELD_EVENTID = 4;
+    public static final int FIELD_NAME = 5;
+    public static final int FIELD_QPID = 1;
+    public static final int FIELD_SUB_KEY = 6;
+    public static final int FIELD_SUB_TYPE = 7;
+    public static final int FIELD_TVQID = 3;
+    public static final int LOAD_FIRST_INDEX_0 = 0;
+    public static final int LOAD_FIRST_INDEX_1 = 1;
+    public static final int PER_LOAD_COUNT_120 = 120;
+    public static final int PER_LOAD_COUNT_200 = 200;
+    public static final int PER_LOAD_COUNT_60 = 60;
+    public static final int RECOMMEND_NONE = 0;
+    public static final int RECOMMEND_TYPE1_6_5 = 2;
+    public static final int RECOMMEND_TYPE_1_5 = 1;
+    public static final int TEXT_BIG_VIEW_DESC = 2;
+    public static final int TEXT_BIG_VIEW_TITLE = 1;
+    public static final int TEXT_CORNER_DES = 8;
+    public static final int TEXT_DATE = 5;
+    public static final int TEXT_DES = 4;
+    public static final int TEXT_DES_L = 10;
+    public static final int TEXT_DES_R = 11;
+    public static final int TEXT_LEN = 7;
+    public static final int TEXT_SCORE = 9;
+    public static final int TEXT_TITLE = 3;
+    public static final int URL_MODIFY = 2;
+    public static final int URL_ORIGINAL = 1;
+}

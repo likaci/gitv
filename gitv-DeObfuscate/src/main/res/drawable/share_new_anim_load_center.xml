@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:duration="90" android:drawable="@drawable/share_loading_center1" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center2" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center3" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center4" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center5" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center6" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center7" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center8" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center9" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center10" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center11" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center12" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center13" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center14" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center15" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center16" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center17" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center18" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center19" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center20" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center21" />
+    <item android:duration="90" android:drawable="@drawable/share_loading_center22" />
+</animation-list>

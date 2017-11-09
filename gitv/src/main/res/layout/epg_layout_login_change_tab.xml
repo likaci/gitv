@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/epg_login_changetab_bg" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x7f0809b4" android:layout_height="UNKNOWN_DATA_0x7f0805d8">
+    <TextView android:textSize="@dimen/dimen_23dp" android:textColor="@color/change_tab_color_normal" android:id="@id/epg_text_change_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="1" android:layout_centerInParent="true" />
+</RelativeLayout>

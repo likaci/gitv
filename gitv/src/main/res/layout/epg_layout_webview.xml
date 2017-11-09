@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/epg_main" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@id/epg_webview_extra_container_layout_viewstub" android:layout="@layout/epg_webview_extra_container_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_webview_loading" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_webview_lading_layout_viewstub" android:visibility="gone" android:layout="@layout/share_stars_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_webview_qr_panel_layout_viewstub" android:visibility="gone" android:layout="@layout/epg_webview_qr_panel_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</merge>

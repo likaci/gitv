@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@id/epg_key_line" android:background="@color/search_t9_line" android:layout_width="UNKNOWN_DATA_0x7f080607" android:layout_height="UNKNOWN_DATA_0x7f080637" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/dimen_30dp" android:textColor="@color/keyboard_num" android:id="@id/epg_key_num_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_10dp" android:text="0" android:layout_toLeftOf="@id/epg_key_line" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/dimen_30dp" android:textColor="@color/keyboard_num" android:id="@id/epg_key_num_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10dp" android:text="1" android:layout_toRightOf="@id/epg_key_line" android:layout_centerVertical="true" />
+</RelativeLayout>

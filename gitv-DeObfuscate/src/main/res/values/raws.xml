@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="cardlayout">res/raw/cardlayout.bin</raw>
+    <raw name="cardlayout_v1">res/raw/cardlayout_v1.bin</raw>
+    <raw name="itemstyle_v1">res/raw/itemstyle_v1.bin</raw>
+    <raw name="login_succ">res/raw/login_succ.ogg</raw>
+</resources>

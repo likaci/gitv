@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/share_loading_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/share_logo" android:layout_width="UNKNOWN_DATA_0x7f080af9" android:layout_height="UNKNOWN_DATA_0x7f080af7" android:layout_marginLeft="@dimen/loading_logo_marginleft" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/share_rl_loading_and_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/share_loading" android:layout_width="UNKNOWN_DATA_0x7f080af3" android:layout_height="UNKNOWN_DATA_0x7f080af1" android:layout_marginTop="@dimen/dimen_4dp" />
+        <TextView android:textSize="@dimen/video_play_text_size" android:textColor="@color/album_list_highlight_text_color" android:ellipsize="end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/share_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/loading_txt_name_margin_left_and_right" android:layout_marginTop="@dimen/dimen_2dp" android:layout_marginRight="@dimen/loading_txt_name_margin_left_and_right" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/share_video_derive" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f080af6" android:layout_height="UNKNOWN_DATA_0x7f080af4" android:layout_marginTop="@dimen/loading_derive_margin_top" android:layout_below="@id/share_rl_loading_and_description" android:layout_centerHorizontal="true" />
+</RelativeLayout>

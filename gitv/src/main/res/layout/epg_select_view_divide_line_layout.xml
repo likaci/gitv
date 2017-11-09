@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/epg_select_view_divide_line" android:focusable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080682" android:src="@drawable/epg_album_label_line" android:scaleType="fitXY" />

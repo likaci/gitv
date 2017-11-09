@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/epg_recommend_big_item" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/epg_q_album_recommend" />
+    <include android:id="@id/epg_recommend_gridview_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_279dp" layout="@layout/epg_channel_recommed_gridview" />
+</RelativeLayout>

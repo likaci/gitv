@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+    <FrameLayout android:id="@id/content_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/iv_bg_hdr" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    </FrameLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/ll_button_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/dimen_81dp">
+        <TextView android:textSize="@dimen/dimen_26dp" android:textColor="@color/share_global_dialog_btn_text_color_selector" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bottom_left_button" android:background="@drawable/player_hdr_dialog_btn_selector" android:nextFocusLeft="@id/bottom_left_button" android:nextFocusRight="@id/bottom_right_button" android:layout_width="UNKNOWN_DATA_0x7f080639" android:layout_height="UNKNOWN_DATA_0x7f0807c0" />
+        <TextView android:textSize="@dimen/dimen_26dp" android:textColor="@color/share_global_dialog_btn_text_color_selector" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bottom_right_button" android:background="@drawable/player_hdr_dialog_btn_selector" android:nextFocusLeft="@id/bottom_left_button" android:nextFocusRight="@id/bottom_right_button" android:layout_width="UNKNOWN_DATA_0x7f080639" android:layout_height="UNKNOWN_DATA_0x7f0807c0" android:text="@string/dhr_guide_next_start" />
+    </LinearLayout>
+</FrameLayout>

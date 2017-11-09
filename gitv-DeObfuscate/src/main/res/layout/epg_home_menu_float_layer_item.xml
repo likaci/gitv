@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_menu_float_layer_item_icon" android:layout_width="UNKNOWN_DATA_0x7f080851" android:layout_height="UNKNOWN_DATA_0x7f080851" android:layout_marginTop="@dimen/dimen_25dp" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/dimen_20dp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/epg_menu_float_layer_item_name" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f080708" android:layout_marginTop="@dimen/dimen_20dp" />
+</merge>

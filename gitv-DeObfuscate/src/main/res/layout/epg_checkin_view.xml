@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="UNKNOWN_DATA_0x7f0806f8" android:layout_height="UNKNOWN_DATA_0x7f080659" android:src="@drawable/epg_checkin_guide" />
+    <Button android:textSize="@dimen/dimen_20sp" android:textColor="@drawable/tab_manager_tab_moving_text_color_selector" android:id="@id/check_in" android:background="@drawable/checkin_btn_corner_selector" android:layout_width="UNKNOWN_DATA_0x7f080372" android:layout_height="UNKNOWN_DATA_0x7f080708" android:layout_marginTop="@dimen/dimen_27dp" android:text="@string/epg_check_in" />
+    <Button android:textSize="@dimen/dimen_20sp" android:textColor="@drawable/tab_manager_tab_moving_text_color_selector" android:id="@id/check_out" android:background="@drawable/checkin_btn_corner_selector" android:layout_width="UNKNOWN_DATA_0x7f080372" android:layout_height="UNKNOWN_DATA_0x7f080708" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginBottom="@dimen/dimen_30dp" android:text="@string/epg_check_out" />
+</LinearLayout>

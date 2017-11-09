@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:background="@drawable/gitv_welcome_plugin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/dimen_17dp" android:textColor="#f1f1f1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/apk_version_tip" android:background="@drawable/epg_welcome_version_tip_background" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f080990" android:layout_height="UNKNOWN_DATA_0x7f080668" android:layout_marginBottom="@dimen/dimen_107dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

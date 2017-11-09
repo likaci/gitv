@@ -1,0 +1,48 @@
+package com.push.pushservice.constants;
+
+public class PushConstants {
+    public static final String ACTION_CONNECTIONLOST = "PushService.CONNECTIONLOST";
+    public static final String ACTION_FORCE_STOP = "PushService.FORCESTOP";
+    public static final String ACTION_PING = "PushService.PING";
+    public static final String ACTION_PINGTIMER = "PushService.PINGTIMER";
+    public static final String ACTION_PONG = "PushService.PONG";
+    public static final String ACTION_SCHEDULE_CONNECT = "PushService.SCHEDULE_CONNECT";
+    public static final String ACTION_SCHEDULE_DISCONNECT = "PushService.SCHEDULE_DISCONNECT";
+    public static final String ACTION_SET_KEEPALIVE = "PushService.SETKEEPALIVE";
+    public static final String ACTION_START = "PushService.START";
+    public static final String ACTION_STOP = "PushService.STOP";
+    public static final String CHARACTER_CODE = "ISO-8859-1";
+    public static final int ERROR_MQTT_EXCEPTION = 20003;
+    public static final int ERROR_NETWORK_ERROR = 10001;
+    public static final int ERROR_SERVER_INTERNAL_ERROR = 30600;
+    public static final int ERROR_SERVICE_NOT_AVAILABLE = 10002;
+    public static final int ERROR_SERVICE_NO_CONNECT = 20004;
+    public static final int ERROR_SUCCESS = 0;
+    public static final int ERROR_UNKNOWN = 20001;
+    public static final int ERROR_UNSUPPORTED_ENCODING = 20002;
+    public static final String EXTRA_APP_PACKAGE_NAME = "package_name";
+    public static final String EXTRA_APP_VER = "appVer";
+    public static final String EXTRA_BUNDLE_DATA = "bundleData";
+    public static final String EXTRA_DEBUG_MODE = "debug_mode";
+    public static final String EXTRA_INFO = "info";
+    public static final String EXTRA_KEEP_ALIVE_TIMES = "keepAliveTimes";
+    public static final String EXTRA_MSG_TYPE = "msgtype";
+    public static final String EXTRA_ONE_HOST = "onehost";
+    public static final String EXTRA_START_TIME = "startTime";
+    public static final String EXTRA_TOPIC = "topic";
+    public static final int MESSAGE_TYPE_PUSH = 1000;
+    public static final int MQTT_QOS_0 = 0;
+    public static final int MQTT_QOS_1 = 1;
+    public static final int MQTT_QOS_2 = 2;
+    public static final String PLATFORM_TYPE = "24";
+    public static final String PUSH_SERVICE_HOST = "cloudpush.ptqy.gitv.tv";
+    public static String SERVER_GET_BROKERS_URL = (SERVER_URL + "get_brokers.action");
+    private static String SERVER_URL = "http://cloudpush.ptqy.gitv.tv/apis/push/";
+    public static final String SERVICE_CLASSNAME = "com.push.pushservice.api.PushService";
+    public static final String SERVICE_NAME = "PushService";
+    public static final int SERVICE_START = 1003;
+    public static final int SERVICE_STOP = 1004;
+    public static final int SET_DEBUG_ON_OF = 1007;
+    public static final long TRY_CONNECT_INTERVAL = 300000;
+    public static final long TRY_CONNECT_INTERVAL_MINUTE = 5;
+}

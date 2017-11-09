@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/epg_app_menu_layout" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x7f080aa4" android:layout_height="UNKNOWN_DATA_0x7f080aa4">
+        <ImageView android:id="@id/epg_app_menu_icon" android:layout_width="UNKNOWN_DATA_0x7f08096c" android:layout_height="UNKNOWN_DATA_0x7f08096c" android:layout_marginTop="@dimen/dimen_15dp" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/dimen_29dp" android:textColor="#f8f8f8" android:id="@id/epg_app_menu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_110dp" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

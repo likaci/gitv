@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#bfaabbcc" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:id="@id/linearLayout1" android:background="#ffccbbaa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <TextView android:textSize="18dp" android:textColor="#f58220" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CurrentTime:" />
+        <TextView android:textSize="18dp" android:textColor="#f58220" android:id="@id/txt_currentTime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

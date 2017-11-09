@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/album_detail_main_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/fl_player_view_parent_news" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.gala.video.albumlist.widget.BlocksView android:id="@id/detail_scroll_view" android:paddingTop="@dimen/detail_scroll_top_margin" android:paddingBottom="@dimen/dimen_30dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ViewStub android:id="@id/stub_full_description" android:focusable="true" android:visibility="gone" android:layout="@layout/share_layout_detail_full_description" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ViewStub android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/stub_detail_top_title" android:visibility="gone" android:layout="@layout/player_layout_detail_top_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080a7e" />
+    <com.gala.video.app.player.albumdetail.data.AllViewBlocksView android:id="@id/detail_all_view" android:paddingTop="@dimen/detail_scroll_top_margin" android:paddingBottom="@dimen/dimen_30dp" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.gala.video.lib.share.uikit.view.FocusView android:id="@id/card_focus" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0801f6" android:layout_height="UNKNOWN_DATA_0x7f0801f6" android:layerType="none" />
+</merge>

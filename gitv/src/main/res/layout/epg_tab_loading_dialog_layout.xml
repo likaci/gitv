@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/dimen_27dp" android:textColor="#f1f1f1" android:id="@id/epg_tab_manage_hint" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在整理桌面…" android:layout_centerInParent="true" />
+    <com.gala.video.app.epg.home.widget.tabmanager.TabLoadingView android:id="@id/epg_tab_loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_10dp" android:layout_above="@id/epg_tab_manage_hint" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/dimen_24dp" android:textColor="@color/albumview_normal_color" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/epg_label_tv" android:background="@drawable/epg_list_label_selector" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="UNKNOWN_DATA_0x7f08061d" android:layout_height="UNKNOWN_DATA_0x7f0807a8" android:singleLine="true" />

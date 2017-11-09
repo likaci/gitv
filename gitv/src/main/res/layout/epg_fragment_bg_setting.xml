@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f080714" android:layout_marginTop="@dimen/dimen_20dp" android:layout_marginRight="@dimen/dimen_32dp">
+        <ImageView android:id="@id/epg_mycenter_icon_id" android:layout_width="UNKNOWN_DATA_0x7f0807a8" android:layout_height="UNKNOWN_DATA_0x7f080714" android:src="@drawable/epg_setting_icon_play" android:scaleType="fitXY" />
+        <View android:id="@id/epg_mycenter_icon_line_id" android:background="@color/gray" android:layout_width="UNKNOWN_DATA_0x7f080607" android:layout_height="UNKNOWN_DATA_0x7f080714" android:layout_marginLeft="@dimen/dimen_10dp" android:layout_toRightOf="@id/epg_mycenter_icon_id" />
+        <TextView android:textSize="@dimen/dimen_32dp" android:textColor="@color/setting_white" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:focusable="false" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f080714" android:layout_marginLeft="@dimen/dimen_10dp" android:text="背景设置" android:includeFontPadding="false" android:layout_toRightOf="@id/epg_mycenter_icon_line_id" />
+    </RelativeLayout>
+    <com.gala.video.albumlist4.widget.HorizontalGridView android:id="@id/epg_grid_skin_mode_id" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_120dp" android:layout_marginTop="@dimen/dimen_14dp" />
+</LinearLayout>

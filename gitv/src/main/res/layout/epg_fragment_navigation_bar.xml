@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/android/skin" skin:layout_width="match_parent" skin:layout_height="match_parent">
+    <FrameLayout skin:background="@color/album_left_background" skin:focusable="false" skin:layout_width="UNKNOWN_DATA_0x7f08061d" skin:layout_height="match_parent" />
+    <com.gala.video.albumlist4.widget.ListView skin:id="@id/epg_list_view" skin:paddingTop="@dimen/dimen_2dp" skin:paddingBottom="@dimen/dimen_5dp" skin:scrollbars="UNKNOWN_DATA_0x0" skin:clipToPadding="true" skin:layout_width="match_parent" skin:layout_height="match_parent" />
+</RelativeLayout>
